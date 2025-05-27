@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying application...'
+                echo 'Building version 2.0 of the project...'
             }
         }
     }
